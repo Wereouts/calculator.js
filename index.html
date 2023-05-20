@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class = "parte_cima">
+    <p>Calculadora</p>
+    
+    <p id="resultado"></p>
+    <br><br>
+    </div> 
+
+
+
+    <div class="calculadora">
+
+        <button onclick="clean()" class="tecla">C</button>
+        <button onclick="back()" class="tecla"><</button>
+        <button onclick="insert('/')" class="tecla">/</button>
+        <button onclick="insert('*')" class="tecla">X</button> <br> <br>
+                                    
+        <button onclick="insert('7')" class="tecla">7</button>
+        <button onclick="insert('8')" class="tecla">8</button>
+        <button onclick="insert('9')"class="tecla">9</button>
+        <button onclick="insert('-')"class="tecla">-</button> <br> <br>
+                                      
+        <button onclick="insert('4')" class="tecla">4</button>
+        <button onclick="insert('5')" class="tecla">5</button>
+        <button onclick="insert('6')" class="tecla">6</button>
+        <button onclick="insert('+')" class="tecla">+</button> <br> <br>
+                                      
+        <button onclick="insert('1')" class="tecla">1</button>
+        <button onclick="insert('2')" class="tecla">2</button>
+        <button onclick="insert('3')" class="tecla">3</button>
+        <button onclick="calcular()" class="tecla">=</button> <br> <br>
+                                      
+        <button onclick="insert('0')" class="tecla">0</button>
+        <button onclick="insert('.')" class="tecla">.</button> 
+                                   
+
+    </div>
+    
+</body>
+
+</html>
